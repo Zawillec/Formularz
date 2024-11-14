@@ -1,0 +1,16 @@
+﻿@model Formularz.Models.Dane
+
+@{
+    ViewData["Title"] = "Podsumowanie rejestracji";
+}
+
+<h1>Podsumowanie rejestracji</h1>
+
+<p><strong>Imię:</strong> @Model.Imie</p>
+<p><strong>Nazwisko:</strong> @Model.Nazwisko</p>
+<p><strong>Adres e-mail:</strong> @Model.Email</p>
+<p><strong>Nr telefonu:</strong> @Model.Tel</p>
+<p><strong>Wiek:</strong> @Model.Wiek</p>
+<p><strong>Miasto:</strong> @Model.Miasto</p>
+
+<a asp-action="Index">Powrót do formularza</a>
